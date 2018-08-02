@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-Italic.eot');
+    src: url('subset-WeissenhofGrotesk-Italic.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-Italic.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-Italic.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-Italic.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-Italic.svg#WeissenhofGrotesk-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-LightItalic.eot');
+    src: url('subset-WeissenhofGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-LightItalic.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-LightItalic.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-LightItalic.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-LightItalic.svg#WeissenhofGrotesk-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-Bold.eot');
+    src: url('subset-WeissenhofGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-Bold.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-Bold.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-Bold.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-Bold.svg#WeissenhofGrotesk-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-Medium.eot');
+    src: url('subset-WeissenhofGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-Medium.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-Medium.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-Medium.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-Medium.svg#WeissenhofGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-BoldItalic.eot');
+    src: url('subset-WeissenhofGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-BoldItalic.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-BoldItalic.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-BoldItalic.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-BoldItalic.svg#WeissenhofGrotesk-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-Light.eot');
+    src: url('subset-WeissenhofGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-Light.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-Light.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-Light.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-Light.svg#WeissenhofGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-Regular.eot');
+    src: url('subset-WeissenhofGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-Regular.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-Regular.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-Regular.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-Regular.svg#WeissenhofGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bombardier';
+    src: url('subset-Bombardier.eot');
+    src: url('subset-Bombardier.eot?#iefix') format('embedded-opentype'),
+        url('subset-Bombardier.woff2') format('woff2'),
+        url('subset-Bombardier.woff') format('woff'),
+        url('subset-Bombardier.ttf') format('truetype'),
+        url('subset-Bombardier.svg#Bombardier') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weissenhof Grotesk';
+    src: url('subset-WeissenhofGrotesk-MediumItalic.eot');
+    src: url('subset-WeissenhofGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-WeissenhofGrotesk-MediumItalic.woff2') format('woff2'),
+        url('subset-WeissenhofGrotesk-MediumItalic.woff') format('woff'),
+        url('subset-WeissenhofGrotesk-MediumItalic.ttf') format('truetype'),
+        url('subset-WeissenhofGrotesk-MediumItalic.svg#WeissenhofGrotesk-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+

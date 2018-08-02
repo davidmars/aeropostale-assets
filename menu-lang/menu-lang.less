@@ -1,0 +1,53 @@
+#menu-lang{
+  display: flex;
+  @size:50px;
+  @border:5px;
+  >button{
+    margin: 5px;
+    position: relative;
+    border: @border solid rgba(255, 255, 255, 0.5);
+    width: @size;
+    height: @size;
+    border-radius: 100%;
+
+    appearance: none;
+    color: #fff;
+    background-color: transparent;
+
+    font-family: @font-family-weis;
+    font-weight: bold;
+    font-size: @size - @border*2;
+    text-transform: uppercase;
+
+    transition: all 0.2s;
+
+    &:before{
+      display: block;
+      position: absolute;
+      z-index: -1;
+      content:"";
+      top: @border;
+      left: @border;
+      width: (@size - @border*4);
+      height: (@size - @border*4);
+      border-radius: 100%;
+
+      background-color: transparent;
+
+
+      transition: all 0.2s;
+      transition-delay: 0.2s;
+      transform: scale(0);
+    }
+
+    &.active{
+      border-color: #fff;
+      color: @color-vert;
+      &:before{
+        background-color: #fff;
+        transform: scale(1);
+      }
+    }
+
+  }
+}

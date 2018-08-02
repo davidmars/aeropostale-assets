@@ -1,0 +1,267 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M932.229 826.472l-212.232-180.508c-21.94-19.746-45.404-28.81-64.358-27.936 50.099-58.684 80.362-134.818 80.362-218.028 0-185.568-150.432-336-336-336-185.566 0-336 150.432-336 336s150.432 336 336 336c83.21 0 159.344-30.262 218.028-80.364-0.875 18.954 8.19 42.418 27.936 64.358l180.508 212.232c30.906 34.34 81.394 37.234 112.192 6.436s27.906-81.286-6.434-112.192zM400 624c-123.711 0-224-100.289-224-224s100.289-224 224-224 224 100.289 224 224-100.288 224-224 224z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "search",
+          "magnifier",
+          "magnifying-glass",
+          "inspect",
+          "find"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 1,
+        "name": "zoom",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M953.456 579.636l-441.456-342.668-441.456 342.67v-139.712l441.456-342.668 441.456 342.67zM843.092 567.182v331.092h-220.728v-220.728h-220.728v220.728h-220.728v-331.092l331.092-248.32z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "home",
+          "house"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "home",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M938 572.040h-365.96v365.96h-120.080v-365.96h-365.96v-120.080h365.96v-365.96h120.080v365.96h365.96v120.080z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "add"
+        ],
+        "defaultCode": 57669,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "add",
+        "id": 12,
+        "order": 8,
+        "prevSize": 32,
+        "code": 57669,
+        "name": "plus"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 12
+    },
+    {
+      "icon": {
+        "paths": [
+          "M938 171.772l-340.228 340.228 340.228 340.228-85.772 85.772-340.228-340.228-340.228 340.228-85.772-85.772 340.228-340.228-340.228-340.228 85.772-85.772 340.228 340.228 340.228-340.228z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "close"
+        ],
+        "defaultCode": 58829,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "clear, close",
+        "id": 157,
+        "order": 9,
+        "prevSize": 32,
+        "code": 58829,
+        "name": "close"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 157
+    },
+    {
+      "icon": {
+        "paths": [
+          "M196.912 225.847l315.088 315.088 315.088-315.088 96.456 96.456-411.544 411.544-411.544-411.544z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "keyboard_arrow_down"
+        ],
+        "defaultCode": 58131,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "keyboard_arrow_down",
+        "id": 411,
+        "order": 7,
+        "prevSize": 32,
+        "code": 58131,
+        "name": "caret-down"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 411
+    },
+    {
+      "icon": {
+        "paths": [
+          "M712.75 751.25l-82.5 82.5-352-352 352-352 82.5 82.5-269.5 269.5z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "keyboard_arrow_left"
+        ],
+        "defaultCode": 58132,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "keyboard_arrow_left",
+        "id": 412,
+        "order": 4,
+        "prevSize": 32,
+        "code": 58132,
+        "name": "caret-left"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 412
+    },
+    {
+      "icon": {
+        "paths": [
+          "M311.25 767.75l269.5-269.5-269.5-269.5 82.5-82.5 352 352-352 352z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "keyboard_arrow_right"
+        ],
+        "defaultCode": 58133,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "keyboard_arrow_right",
+        "id": 413,
+        "order": 5,
+        "prevSize": 32,
+        "code": 58133,
+        "name": "caret-right"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 413
+    },
+    {
+      "icon": {
+        "paths": [
+          "M196.912 746.71l-96.456-96.456 411.544-411.544 411.544 411.544-96.456 96.456-315.088-315.088z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "keyboard_arrow_up"
+        ],
+        "defaultCode": 58134,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "keyboard_arrow_up",
+        "id": 414,
+        "order": 6,
+        "prevSize": 32,
+        "code": 58134,
+        "name": "caret-up"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 414
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icons-aeropostale"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icons-aeropostale",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "noie8": true,
+      "ie7": false,
+      "showSelector": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16,
+    "showGrid": true
+  }
+}

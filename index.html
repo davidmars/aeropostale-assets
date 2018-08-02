@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aéropostale Assets</title>
+    <link media="all" rel="stylesheet" href="./dist/app.css" />
+</head>
+<body>
+    <h1>Aéropostale Assets</h1>
+
+    <h2>Typographie</h2>
+
+    <pre>.typo-bombardier</pre>
+    <div class="typo-bombardier">
+        azertyuiopqsdfghjklmwxcvbnéèàâçûü<br>
+        AZERTYUIOPQSDFGHJKLMWXCVBNÉÈÀÂÇÛÜ<br>
+        0123456789=+-*/@$;,?!_()[]{}"'
+    </div>
+
+    <pre>.typo-weis</pre>
+    <div class="typo-weis">
+        azertyuiopqsdfghjklmwxcvbnéèàâçûü<br>
+        AZERTYUIOPQSDFGHJKLMWXCVBNÉÈÀÂÇÛÜ<br>
+        0123456789=+-*/@$;,?!_()[]{}"'
+    </div>
+
+    <pre>typo par défaut = .typo-weis</pre>
+    <div class="">
+        azertyuiopqsdfghjklmwxcvbnéèàâçûü<br>
+        AZERTYUIOPQSDFGHJKLMWXCVBNÉÈÀÂÇÛÜ<br>
+        0123456789=+-*/@$;,?!_()[]{}"'
+    </div>
+
+    <pre>typo heading = .typo-bombardier</pre>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+
+    <h2>Couleurs</h2>
+    <div class="tests-couleur">
+        <div class="color-vert-bg"><pre>.color-vert-bg</pre></div>
+        <div class="color-vert-2-bg"><pre>.color-vert-2-bg</pre></div>
+        <div class="color-vert-3-bg"><pre>.color-vert-3-bg</pre></div>
+        <div class="color-vert-4-bg"><pre>.color-vert-4-bg</pre></div>
+        <div class="color-rouge-bg"><pre>.color-rouge-bg</pre></div>
+        <div class="color-rouge-2-bg"><pre>.color-rouge-2-bg</pre></div>
+        <div class="color-dark-bg"><pre>.color-dark-bg</pre></div>
+    </div>
+     <div class="tests-couleur-txt">
+        <div class="color-vert-txt">.color-vert-txt</div>
+        <div class="color-vert-2-txt">.color-vert-2-txt</div>
+        <div class="color-vert-3-txt">.color-vert-3-txt</div>
+        <div class="color-vert-4-txt">.color-vert-4-txt</div>
+        <div class="color-rouge-txt">.color-rouge-txt</div>
+        <div class="color-rouge-2-txt">.color-rouge-2-txt</div>
+        <div class="color-dark-txt">.color-dark-txt</div>
+    </div>
+
+    <h2>Icônes</h2>
+
+    <div class="tests-icones">
+        <div>
+            <div class="icon-home"></div>
+            <pre>.icon-home</pre>
+        </div>
+        <div>
+            <div class="icon-zoom"></div>
+            <pre>.icon-zoom</pre>
+        </div>
+        <div>
+            <div class="icon-plus"></div>
+            <pre>.icon-plus</pre>
+        </div>
+        <div>
+            <div class="icon-close"></div>
+            <pre>.icon-close</pre>
+        </div>
+        <div>
+            <div class="icon-caret-left"></div>
+            <pre>.icon-caret-left</pre>
+        </div>
+        <div>
+            <div class="icon-caret-right"></div>
+            <pre>.icon-caret-right</pre>
+        </div>
+        <div>
+            <div class="icon-caret-up"></div>
+            <pre>.icon-caret-up</pre>
+        </div>
+        <div>
+            <div class="icon-caret-down"></div>
+            <pre>.icon-home</pre>
+        </div>
+        
+
+    </div>
+
+    <h2>Menu langues</h2>
+
+<pre>
+//Regarder la console quand on change de langue
+
+$("body").on("CHANGE_LANG",function(event,langCode){
+    console.log("Changement de langue...",langCode);
+})
+</pre>
+    <div id="menu-lang">
+        <button data-lang="fr">FR</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="es" class="active">ES</button>
+    </div>
+
+</body>
+    <script src="./dist/app.js"></script>
+</html>

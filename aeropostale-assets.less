@@ -1,0 +1,92 @@
+@import "./fonts/typographie.less";
+@import "./gfx/colors.less";
+@import "./menu-lang/menu-lang.less";
+@import "./icons/icons-aeropostale.css";
+
+
+//--------------reset------------------------
+
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+//--------------reset tactile----------------
+:focus {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+body{
+  user-select: none;
+}
+
+//---------------tests only-----------------
+
+body{
+  background-color: @color-vert;
+  color: #fff;
+  font-size: 18px;
+}
+
+pre{
+  background-color: #eee;
+  border-radius: 4px;
+  color: #600;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.tests-couleur{
+   display: flex;
+   flex-wrap: wrap;
+   >*{
+     border: 1px solid #fff;
+     width: 200px;
+     height: 200px;
+     margin: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: monospace;
+   }
+ }
+.tests-couleur-txt{
+  padding: 20px;
+  background-color: #fff;
+  >*{
+    margin: 5px;
+    font-weight: bold;
+    font-family: @font-family-weis;
+  }
+}
+.tests-icones{
+  display: flex;
+  flex-wrap: wrap;
+  >*{
+    border: 5px solid #fff;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    >[class*="icon-"]{
+      font-size: 60px;
+      outline: 1px dotted red;
+    }
+    >pre{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+      text-align: center;
+    }
+  }
+}
