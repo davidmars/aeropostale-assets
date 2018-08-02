@@ -1,6 +1,9 @@
 # aeropostale-assets
 Quelques assets communs à tous les projets Aéropostale; typos, couleurs, menu de langues, icones etc...
 
+## Démo ici
+https://davidmars.github.io/aeropostale-assets/
+
 ## Utilisation simple
 Copiez les fichiers qui vous sont utiles dans votre projet et c'est tout :)
 
